@@ -10,8 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       base: https://dl.google.com/games/registry/unity/com.google.external-dependency-manager/com.google.external-dependency-manager
-      version: 1.2.176
-      name_version: 1_2_176
+      version: 1.2.177
+      name_version: 1_2_177
     steps:
       - uses: actions/checkout@v3
       - name: Config
